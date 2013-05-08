@@ -1,0 +1,14 @@
+#version 330 core
+
+in vec3 fragmentColor;
+in vec3 fragNormal;
+out vec3 color;
+
+void main()
+{
+	float cosTheta = dot(fragNormal, vec3(0, 1, 0));
+	
+	cosTheta = clamp(cosTheta + .01, 0, 1);
+	
+	color = fragmentColor * cosTheta;
+}

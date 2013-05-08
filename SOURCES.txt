@@ -1,0 +1,12 @@
+THANK YOU TO
+gafferongames.com for all your help with RK4 intergation
+
+opengl-tutorial.org for all your help with shaders, and MVP calcualtions
+
+songho.ca for your help with VAO generation and display
+
+GLM for not forcing me to use my buggy and inefficient matrix, quaterion and vector classes and generally streamlining things
+
+GLFW for actually being a modern and updated GL addition
+
+Schwartz for advice and understanding
